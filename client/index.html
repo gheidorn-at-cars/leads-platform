@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Leads Management</title>
+    <style>
+      /* Fallback styles in case Tailwind is not loading */
+      body {
+        background-color: #f9fafb;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+      }
+      .tailwind-test {
+        padding: 20px;
+        background-color: #3b82f6;
+        color: white;
+        border-radius: 8px;
+        margin: 20px auto;
+        max-width: 300px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body class="bg-gray-50">
+    <div class="tailwind-test">
+      This is a test div with fallback styles
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
